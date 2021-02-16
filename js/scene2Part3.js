@@ -6,6 +6,8 @@ $(document).ready(function () {
     $(".question-pt3-3").hide();
     $(".question-pt3-4").hide();
     $(".question-pt3-5").hide();
+    $("#text-pt3-conclusion").hide();
+  
   
     //show what mary is doing at (1) 8pm, (2) 9pm, (3) 12pm, (4) 4am, (5) 6am
   
@@ -110,7 +112,7 @@ $(document).ready(function () {
       `;
       
       $("#text-pt3-5").html(text);
-      $("#btn-pt3-conclusion").show();
+      $("#text-pt3-conclusion").show();
       
     });
   
