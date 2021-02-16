@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <title>Scene 2</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+        <style>
+            body{
+            background-color: #98F559;
+            }
+
+            h1{
+            color: #1901B7;
+            font-family: 'Fredoka One', cursive;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            }
+
+            p{
+            font-family: 'Open Sans', sans-serif;
+            }
+
+            .robot-speech{
+            font-family: monospace;
+            text-align: center;
+            border-radius: 25px;
+            padding: 10px;
+            background: white;
+            margin: 20px;
+            }
+
+            .row{
+            margin:5px;
+            }
+
+            .white-border{
+            border-radius: 25px;
+            background: white;
+            }
+        </style>
+
+        </head>
+
+        <body>
+            <div class="container">
+                <!-- part 1: introduce narrator -->
+                <div id="part-1">
+                    <div class="row">
+                        <div class="col-4">
+                            <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_CP7ooz.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay loop  ></lottie-player>
+                        </div>
+
+                        <div class="col-8">
+                            <p class="robot-speech" style="margin-top: 20%;">
+                                hello! my name is roboCovid. i will be your narrator for scene 2!
+                                <span><a href="#part-2" class="btn btn-secondary btn-sm btn-next-1" role="button">next</a></span>
+                            </p>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <!-- part 2: introduce character -->
+                <div id="part-2">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="robot-speech">now, let me introduce you to the characters!</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4">
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ip6yukgk.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+                        </div>
+
+                        <div class="col-8" style="margin-top: 10%;">
+                            <p class="robot-speech">presenting our main character, mary. when mary woke up, she felt very sick.</p>
+
+                            <p class="robot-speech">
+                                lets go back to the previous night ...
+                                <span><a href="#time-travel" class="btn btn-secondary btn-sm btn-next-2" role="button">next</a></span>
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="time-travel-anim" id="time-travel"></div>
+                    </div>
+                    
+                </div>
+
+                <!-- part 3: story of the previous the night (why mary got sick) -->
+                <div id="part-3">
+                    <div class="row">
+                        <div class="col-12">
+
+                            <div class="question-pt3-1">
+                                <p class="robot-speech">
+                                What could she be doing at 
+                                <span><a href="#text-pt3-1" class="btn btn-secondary btn-sm btn-pt3-1" role="button">8pm?</a></span>  
+                                </p>
+                            </div>
+                            <div id="text-pt3-1"></div>
+
+                            <div class="question-pt3-2">
+                                <p class="robot-speech">
+                                What could she be doing at 
+                                <span><a href="#text-pt3-2" class="btn btn-secondary btn-sm btn-pt3-2" role="button">10pm?</a></span>  
+                                </p>
+                            </div>
+                            <div id="text-pt3-2"></div>
+
+                            <p class="robot-speech question-pt3-3">
+                                What could she be doing at 
+                                <span><a href="#text-pt3-3" class="btn btn-secondary btn-sm btn-pt3-3" role="button">12am?</a></span>  
+                            </p>
+                            <div id="text-pt3-3"></div>
+
+                            <p class="robot-speech question-pt3-4">
+                                What could she be doing at 
+                                <span><a href="#text-pt3-4" class="btn btn-secondary btn-sm btn-pt3-4" role="button">4am?</a></span>  
+                            </p>
+                            <div id="text-pt3-4"></div>
+
+                            <p class="robot-speech question-pt3-5">
+                                What could she be doing at 
+                                <span><a href="#text-pt3-5" class="btn btn-secondary btn-sm btn-pt3-5" role="button">6am?</a></span>  
+                            </p>
+                            <div id="text-pt3-5"></div>
+                            
+                            <div id="text-pt3-conclusion">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_CP7ooz.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay loop  ></lottie-player>
+                                    </div>
+
+                                    <div class="col-8">
+                                        <p class="robot-speech" style="margin-top: 20%;">
+                                        Now, that we know what happened, we need your help. 
+                                        <span><a href="#text-pt3-4" class="btn btn-secondary btn-sm btn-pt3-conclusion" role="button">next</a></span>  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>  
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- part 4: (choice 1) should mary go see the doctor? -->
+                <div id="part-4">
+                    <div class="row">
+                        <div class="col-4">
+                            <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_CP7ooz.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay loop  ></lottie-player>
+                        </div>
+
+                        <div class="col-8">
+                            <p class="robot-speech" style="margin-top: 20%;">
+                                What should Mary do?<br>
+
+                                <a href="#pt4-consequence" class="btn btn-secondary btn-sm btn-pt4-home" role="button">Stay Home</a>
+                                <a href="#pt4-consequence" class="btn btn-secondary btn-sm btn-pt4-doc" role="button">Go to the Doctor</a>
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="pt4-consequence"></div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- lotties -->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+        <!-- own js files -->
+        <script src="js/scene2Main.js"></script>
+        <script src="js/scene2Part3.js"></script>
+        <script src="js/scene2Part4.js"></script>
+    </body>
+
+</html>
