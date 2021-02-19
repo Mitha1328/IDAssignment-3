@@ -40,18 +40,18 @@ Wireframe: https://docs.google.com/presentation/d/1sKR73a3jOnfNe6woMZ4Q60EZq7WNh
    
 ### Technologies Used
 We both as a team have used **Jquery, Javascript, API and styling properties** to bring out the creativity and attraction to the page. 
-* #### JQuery & Javascript
+#### JQuery & Javascript
 * Jquery and Javascript allows a choice based game for the user so that each of their choices gives a personalised output.
-* #### API
+#### API
 * API is used as a quick and easy way for the user to tell what is happening in the world because of this Covid-19 virus outbreak
-*  #### CSS
+#### CSS
 * We used minimal CSS styling properties as we wanted the website to have an uniformed theme and style
 
 ### Interesting Bugs
-Tested on Chrome: Works well.
-Tested on Firefox: Works well. Same as chrome.
-Tested on Oppo Reno 2: Works well. Aligned well.
-Tested on iPhone 7+: Works well. Aligned not so well.
+* Tested on Chrome: Works well.
+* Tested on Firefox: Works well. Same as chrome.
+* Tested on Oppo Reno 2: Works well. Aligned well.
+* Tested on iPhone 7+: Works well. Aligned not so well.
 
 #### Our Debugging experience
 Main bug problem we faced was with scene 3 and 2. As the user made choices we had to go back to each of the javascript files to hide certain properties and show them when needed.
