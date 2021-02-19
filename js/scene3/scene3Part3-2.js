@@ -1,4 +1,4 @@
-//part 3-2: (choice 1) should mary go see the doctor or stay home?
+//part 3-2: Avoid touching your face
 
 $(document).ready(function () {
   
@@ -7,17 +7,18 @@ $(document).ready(function () {
     var text = `
     <div class="row">
         <div class="col-12">
-          <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_wfp3e88v.json"  background="transparent"  speed="1"  style="width: 90%; height: 90%;"  loop autoplay></lottie-player>
+          <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_wfp3e88v.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
         </div>
 
         <div class="col-12">
           <p class="robot-speech">
             Peter decided to use the Tissue to Scratch
+            <br>
+            It is <strong>Correct and Healthy</strong> to use the Tissue to wipe your hands and mouth
 
             <span><a href="#pt3-conclusion" class="btn btn-secondary btn-sm btn-pt3-conclusion" role="button">Next</a></span>
           </p> 
         </div>
-        
     </div>
     `;
     
@@ -30,8 +31,6 @@ $(document).ready(function () {
       $("#pt3-conclusion").html(text2);
       $("#part-4").show();
     });
-
-
   });
 
   //Just scratch
@@ -39,13 +38,14 @@ $(document).ready(function () {
     var text = `
     <div class="row">
         <div class="col-12">
-          <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_WdTEui.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_v4kwxtlg.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
         </div>
 
         <div class="col-12">
           <p class="robot-speech" style="margin-top: 20%;">
             Peter decided to Scratch.
-
+            <br>
+            It is <strong>not hygenic</strong> to touch your face!
             <span><a href="#pt3-conclusion" class="btn btn-secondary btn-sm btn-pt3-conclusion" role="button">Next</a></span>
           </p> 
         </div>

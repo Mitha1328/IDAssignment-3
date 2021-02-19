@@ -1,4 +1,4 @@
-//part 4: story of the previous the night (why mary got sick)
+//part 4: Peter is queuing up to a store without any 1 meter marks
 
 $(document).ready(function () {
   //hide parts
@@ -18,7 +18,7 @@ $(document).ready(function () {
         </div>
 
         <div class="col-4">
-          <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_ZenthI.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"   loop autoplay></lottie-player>
+          <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_iMTtq1.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"   loop autoplay></lottie-player>
         </div>
     </div>
     `;

@@ -2,12 +2,11 @@
 
 $(document).ready(function () {
   //hide parts
-  $(".question-pt3-2").hide();
+  // $(".question-pt3-2").hide();
   $("#text-pt3-conclusion").hide();
   $("#part-3-2").hide();
 
 
-  //show what mary is doing at (1) 8pm, (5) 6am
   //Avoid Touching your face
 
   //Avoid Touching your face

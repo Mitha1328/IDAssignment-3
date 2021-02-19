@@ -1,20 +1,19 @@
-//part 7-2: Not to go near live animals, poultry and animals
+//part 7-2: Which mask is worn correctly?
 $(document).ready(function () {
-    
+  $("#part-8").hide();
 
-  // Make yourself a meter apart from the person standing in front of you
+  // Which mask is worn correctly? WRONG
   $(".btn-pt7-wrong").on("click", function (e) {
     var text = `
     <div class="row">
-        <div class="col-12">
-          <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_FY7o8z.json"  background="transparent"  speed="0.8"  style="width: 400px; height: 400px;"  loop autoplay></lottie-player>
-        </div>
-
+        
         <div class="col-12">
           <p class="robot-speech">
-            Wrong
+            This is the Wrong mask
             <br>
-            <strong>Wrong</strong>
+            <strong>It is Dirty</strong>
+            <br>
+            You should not wear a dirty mask.
 
             <span><a href="#pt7-conclusion" class="btn btn-secondary btn-sm btn-pt7-conclusion" role="button">Next</a></span>
           </p> 
@@ -30,25 +29,22 @@ $(document).ready(function () {
       
       `;
       $("#pt7-conclusion").html(text2);
-      // $("#part-7").show();
+      $("#part-8").show();
     });
 
 
   });
 
-  //Que up close to one another.
+  //Which mask is worn correctly? CORRECT
   $(".btn-pt7-correct").on("click", function (e) {
     var text = `
     <div class="row">
-        <div class="col-12">
-          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_3ucc3vz0.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
-        </div>
-
+        
         <div class="col-12">
           <p class="robot-speech" style="margin-top: 20%;">
-            Peter decided to keep the Tissue
+            Peter decided to wear the clean mask
             <br>
-            It is <strong>not safe</strong>
+            <strong>You should always wear a clean mask</strong>
 
             <span><a href="#pt7-conclusion" class="btn btn-secondary btn-sm btn-pt7-conclusion" role="button">Next</a></span>
           </p> 
@@ -64,7 +60,7 @@ $(document).ready(function () {
       
       `;
       $("#pt7-conclusion").html(text2);
-      // $("#part-7").show();
+      $("#part-8").show();
     });
   });
 });

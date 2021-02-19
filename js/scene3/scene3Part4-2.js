@@ -8,12 +8,13 @@ $(document).ready(function () {
       var text = `
       <div class="row">
           <div class="col-12">
-            <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_9FzSEE.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+            <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_aGWCIX.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
           </div>
   
           <div class="col-12">
             <p class="robot-speech">
               Peter decided to Make himself a meter apart from the person standing in front of him
+              <strong>Well Done!</strong>
   
               <span><a href="#pt4-conclusion" class="btn btn-secondary btn-sm btn-pt4-conclusion" role="button">Next</a></span>
             </p> 
@@ -40,12 +41,17 @@ $(document).ready(function () {
       var text = `
       <div class="row">
           <div class="col-12">
-            <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_WdTEui.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+            <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_ZenthI.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
           </div>
   
           <div class="col-12">
             <p class="robot-speech" style="margin-top: 20%;">
               Peter decided to Move Closer
+              <br>
+              You should not move closer.
+              You should always have distance between one another so the corona virus does not spread
+              <br>
+              <strong>Social-Distancing of 2M should be followed</strong>
   
               <span><a href="#pt4-conclusion" class="btn btn-secondary btn-sm btn-pt4-conclusion" role="button">Next</a></span>
             </p> 

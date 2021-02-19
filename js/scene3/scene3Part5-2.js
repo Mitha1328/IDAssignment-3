@@ -1,19 +1,22 @@
-//part 5-2: Make yourself a meter apart from the person standing in front of you
+//part 5-2: Throw away used tissue
 
 $(document).ready(function () {
   $("#part-6").hide();
 
-    // Make yourself a meter apart from the person standing in front of you
+    // Threw away used tissue
     $(".btn-pt5-throw").on("click", function (e) {
       var text = `
       <div class="row">
           <div class="col-12">
-            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_FY7o8z.json"  background="transparent"  speed="0.8"  style="width: 400px; height: 400px;"  loop autoplay></lottie-player>
+            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_FY7o8z.json"  background="transparent"  speed="0.8"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
           </div>
   
           <div class="col-12">
             <p class="robot-speech">
-              Peter decided to Make himself a meter apart from the person standing in front of him
+              Peter decided to throw away the tissue.
+              <br>
+              <strong> You should always throw away used tissue immedietly.</strong>
+              To avoid the spread of Covid-19.
   
               <span><a href="#pt5-conclusion" class="btn btn-secondary btn-sm btn-pt5-conclusion" role="button">Next</a></span>
             </p> 
@@ -35,11 +38,11 @@ $(document).ready(function () {
   
     });
   
-    //Que up close to one another.
+    //Kept the used tissue
     $(".btn-pt5-keep").on("click", function (e) {
       var text = `
       <div class="row">
-          <div class="col-4">
+          <div class="col-12">
             <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_3ucc3vz0.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
           </div>
   
@@ -47,9 +50,11 @@ $(document).ready(function () {
             <p class="robot-speech" style="margin-top: 20%;">
               Peter decided to keep the Tissue
               <br>
-              It is <strong>not safe</strong>
+              It is <strong>not safe</strong>.
+              Peter might contaminate himself and his surrounding.
+              This will increase the spread of Covid-19.
   
-              <span><a href="#pt4-conclusion" class="btn btn-secondary btn-sm btn-pt4-conclusion" role="button">Next</a></span>
+              <span><a href="#pt5-conclusion" class="btn btn-secondary btn-sm btn-pt5-conclusion" role="button">Next</a></span>
             </p> 
           </div>
           

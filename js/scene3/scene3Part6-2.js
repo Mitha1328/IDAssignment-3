@@ -7,7 +7,7 @@ $(document).ready(function () {
     var text = `
     <div class="row">
         <div class="col-12">
-          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_f1cFsO.json"  background="transparent"  speed="0.8"  style="width: 400px; height: 400px;"  loop autoplay></lottie-player>
+          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_f1cFsO.json"  background="transparent"  speed="0.8"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
         </div>
 
         <div class="col-12">
@@ -15,6 +15,8 @@ $(document).ready(function () {
             Peter decided to touch the pigeon
             <br>
             <strong>You should not go near Live Animals or Poultry</strong>
+            The animals might be contaminated.
+            They might carry the virus!
 
             <span><a href="#pt6-conclusion" class="btn btn-secondary btn-sm btn-pt6-conclusion" role="button">Next</a></span>
           </p> 
@@ -46,9 +48,10 @@ $(document).ready(function () {
 
         <div class="col-12">
           <p class="robot-speech" style="margin-top: 20%;">
-            Peter decided to keep the Tissue
+            Peter decided to not to go near live animals
             <br>
-            It is <strong>not safe</strong>
+            <strong>Peter is correct!</strong>
+            One should not to go near live animals, poultry and animals
 
             <span><a href="#pt6-conclusion" class="btn btn-secondary btn-sm btn-pt6-conclusion" role="button">Next</a></span>
           </p> 
