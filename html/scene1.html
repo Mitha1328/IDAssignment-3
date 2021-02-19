@@ -269,9 +269,10 @@
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         
           <!-- own js files -->
-          <script src="C:\Users\madhu\Desktop\My Files\SCHOOL\Year 1.2\Interactive Development\Assignment 3\IDAssignment-3\js\scene1Main.js"></script>
-          <script src="js/scene2Part3.js"></script>
-          <script src="js/scene2Part4.js"></script>
+          <script src="js\scene1Main.js"></script>
+          <script src="js\lottieScroll.js"></script>
+          <!-- <script src="js\scene2Part3.js"></script>
+          <script src="js\scene2Part4.js"></script> -->
           
           
         <!-- <section class="lottie-env env-three">
@@ -284,39 +285,5 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js" crossorigin="anonymous"></script>
         
-        <script>
-            var animData = {
-            container: document.getElementById('lottie-three'),
-            path: 'https://assets2.lottiefiles.com/temp/lf20_Dyby8d.json',
-            
-            renderer: 'svg',
-            loop: false,
-            autoplay: false,
-            name: "animScroll",
-            }, animScroll, tl;
-
-
-            var animScroll = bodymovin.loadAnimation(animData)
-
-
-            animScroll.addEventListener('DOMLoaded', function () {
-            tl = new TimelineMax({repeat: 0})
-            tl.to({frame: 0}, 1, {
-                frame: animScroll.totalFrames-1,
-                onUpdate: function() {
-                animScroll.goToAndStop(Math.round(this.target.frame), true)
-                },
-                Ease:Linear.easeNone
-            })
-            
-            var controller = new ScrollMagic.Controller();
-
-            var scene = new ScrollMagic.Scene({
-            triggerElement: ".env-three",
-            offset: 300,
-            duration: 3000 }).setTween(tl).setPin("#lottie-three").addTo(controller);
-
-            })
-        </script>
     </body>
 </html>
