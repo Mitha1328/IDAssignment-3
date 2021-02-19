@@ -11,7 +11,7 @@ $(document).ready(function () {
         </div>
 
         <div class="col-12">
-          <p class="robot-speech">
+          <p class="robot-speech-wrong">
             Peter decided to touch the pigeon
             <br>
             <strong>You should not go near Live Animals or Poultry</strong>
@@ -47,7 +47,7 @@ $(document).ready(function () {
         </div>
 
         <div class="col-12">
-          <p class="robot-speech" style="margin-top: 20%;">
+          <p class="robot-speech-correct" style="margin-top: 20%;">
             Peter decided to not to go near live animals
             <br>
             <strong>Peter is correct!</strong>

@@ -12,8 +12,8 @@ $(document).ready(function () {
           </div>
   
           <div class="col-12">
-            <p class="robot-speech">
-              Peter decided to Make himself a meter apart from the person standing in front of him
+            <p class="robot-speech-correct">
+              Peter decided to Make himself two meter apart from the person standing in front of him
               <strong>Well Done!</strong>
   
               <span><a href="#pt4-conclusion" class="btn btn-secondary btn-sm btn-pt4-conclusion" role="button">Next</a></span>
@@ -45,7 +45,7 @@ $(document).ready(function () {
           </div>
   
           <div class="col-12">
-            <p class="robot-speech" style="margin-top: 20%;">
+            <p class="robot-speech-wrong" style="margin-top: 20%;">
               Peter decided to Move Closer
               <br>
               You should not move closer.

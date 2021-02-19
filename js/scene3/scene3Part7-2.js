@@ -8,7 +8,7 @@ $(document).ready(function () {
     <div class="row">
         
         <div class="col-12">
-          <p class="robot-speech">
+          <p class="robot-speech-wrong">
             This is the Wrong mask
             <br>
             <strong>It is Dirty</strong>
@@ -41,7 +41,7 @@ $(document).ready(function () {
     <div class="row">
         
         <div class="col-12">
-          <p class="robot-speech" style="margin-top: 20%;">
+          <p class="robot-speech-correct" style="margin-top: 20%;">
             Peter decided to wear the clean mask
             <br>
             <strong>You should always wear a clean mask</strong>

@@ -12,7 +12,7 @@ $(document).ready(function () {
           </div>
   
           <div class="col-12">
-            <p class="robot-speech">
+            <p class="robot-speech-correct">
               Peter decided to throw away the tissue.
               <br>
               <strong> You should always throw away used tissue immedietly.</strong>
@@ -47,7 +47,7 @@ $(document).ready(function () {
           </div>
   
           <div class="col-12">
-            <p class="robot-speech" style="margin-top: 20%;">
+            <p class="robot-speech-wrong" style="margin-top: 20%;">
               Peter decided to keep the Tissue
               <br>
               It is <strong>not safe</strong>.
