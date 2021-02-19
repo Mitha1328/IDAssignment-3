@@ -1,11 +1,9 @@
-//part 5: Disposal of used tissue immediately
+//part 6: Disposal of used tissue immediately
 
 $(document).ready(function () {
     //hide parts
     $("#text-pt5-conclusion").hide();
     $("#part-6-2").hide();
-    
-    //Avoid contact with others 
   
     //Avoid contact with others
     $(".btn-pt6-1").on("click", function (e) {

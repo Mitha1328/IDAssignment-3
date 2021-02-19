@@ -1,4 +1,4 @@
-//part 5-2: (choice 1) should mary go see the doctor or stay home?
+//part 5-2: Make yourself a meter apart from the person standing in front of you
 
 $(document).ready(function () {
   $("#part-6").hide();
