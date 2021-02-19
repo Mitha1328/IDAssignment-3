@@ -9,6 +9,8 @@ Aim: The website helps kids to understand the importance of following the rules 
 This game helps kids learn the current Covid situation from their choices and how much power their choices have.
 
 ## Website Link
+https://mitha1328.github.io/IDAssignment-3/
+
 
 ## Design Process
 There are 3 scenes in the game.
