@@ -7,6 +7,7 @@ Target Audience: Kids aged 8-12
 
 Aim: The website helps kids to understand the importance of following the rules such as restrictions and why wearing a mask is a must nowadays. It helps them understand why rules are made. The main goal is for kids to learn from their choices and its consequences.
 This game helps kids learn the current Covid situation from their choices and how much power their choices have.
+
 ## Design Process
 There are 3 scenes in the game.
 1. The user follows the main character and guesses if the statement made is a fact or a myth.
@@ -16,12 +17,7 @@ There are 3 scenes in the game.
 Idea in more details: https://docs.google.com/document/d/1jkXIJsyebjMLacEckzQYBBsCVSunZtLA7gDw_cVP-QY/edit?usp=sharing
 
 Wireframe: https://docs.google.com/presentation/d/1sKR73a3jOnfNe6woMZ4Q60EZq7WNh2HJgmwwkmBqqGs/edit?usp=sharing
-
-
-## Features
-This section will emphasize each feature of our website.
 ## Existing Features
-### Feature 1 - allows users X to achieve Y, by having them fill out Z
 
 1. Index.html - This page of the website is the main landing page of the website. Where it showcases the a loading lottie.
    * A perfect lottie animation that showcases "Covid-19"
@@ -38,8 +34,7 @@ This section will emphasize each feature of our website.
    * Lottie animation for better interactivity and gamefication.
 
 7. Each of the pages encases some re=andom facts so that user can learn new facts while they play along.
-## Features Left to Implement
-Another feature idea
+   
 ### Technologies Used
 We both as a team have used **Jquery, Javascript, API and styling properties** to bring out the creativity and attraction to the page. 
 * #### JQuery
