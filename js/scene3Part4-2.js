@@ -1,6 +1,7 @@
 //part 4-2: (choice 1) should mary go see the doctor or stay home?
 
 $(document).ready(function () {
+  $("#part-5").hide();
   
     // Make yourself a meter apart from the person standing in front of you
     $(".btn-pt4-move").on("click", function (e) {

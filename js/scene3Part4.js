@@ -5,8 +5,6 @@ $(document).ready(function () {
     $("#text-pt3-conclusion").hide();
     $("#part-4-2").hide();
   
-  
-    //show what mary is doing at (1) 8pm, (5) 6am
     //Avoid contact with others
   
     //Avoid contact with others
