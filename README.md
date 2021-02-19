@@ -8,6 +8,8 @@ Target Audience: Kids aged 8-12
 Aim: The website helps kids to understand the importance of following the rules such as restrictions and why wearing a mask is a must nowadays. It helps them understand why rules are made. The main goal is for kids to learn from their choices and its consequences.
 This game helps kids learn the current Covid situation from their choices and how much power their choices have.
 
+## Website Link
+
 ## Design Process
 There are 3 scenes in the game.
 1. The user follows the main character and guesses if the statement made is a fact or a myth.
@@ -37,7 +39,7 @@ Wireframe: https://docs.google.com/presentation/d/1sKR73a3jOnfNe6woMZ4Q60EZq7WNh
    
 ### Technologies Used
 We both as a team have used **Jquery, Javascript, API and styling properties** to bring out the creativity and attraction to the page. 
-* #### JQuery
+* #### JQuery & Javascript
 * Jquery and Javascript allows a choice based game for the user so that each of their choices gives a personalised output.
 * #### API
 * API is used as a quick and easy way for the user to tell what is happening in the world because of this Covid-19 virus outbreak
