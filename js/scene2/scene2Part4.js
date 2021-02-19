@@ -11,7 +11,7 @@ $(document).ready(function () {
       </div>
 
       <div class="col-6">
-        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_TAdvcC.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"    autoplay></lottie-player>
+        <lottie-player src="https://assets10.lottiefiles.com/temp/lf20_qCBn5k.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
       </div>
 
       <div class="col-12">
@@ -54,6 +54,9 @@ $(document).ready(function () {
     
     $("#pt4-consequence").html(text);
 
+    $(".btn-next-4").on("click", function (e) {
+      $("#part-5").show();
+    });
 
 
   });
@@ -67,10 +70,10 @@ $(document).ready(function () {
       </div>
 
       <div class="col-6">
-        <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_2wAunq.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_LCtDAM.json"  background="transparent"  speed="1"  style="width: 100%; height: 1005;"  loop  autoplay></lottie-player>
       </div>
 
-      <div class="col-6">
+      <div class="col-12">
         <p class="robot-speech" style="margin-top: 20%;">
           Mary decided to go to stay home and self heal. This is a great choice :D You kept your schoolmates safe from spreading your sickness to them! YAY YOU! 
 
@@ -80,13 +83,13 @@ $(document).ready(function () {
         </p> 
       </div>
 
-
-        
     </div>`;
     
     $("#pt4-consequence").html(text);
 
-
+    $(".btn-next-4").on("click", function (e) {
+      $("#part-5").show();
+    })
 
   });
 
