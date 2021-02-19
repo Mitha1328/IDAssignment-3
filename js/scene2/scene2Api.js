@@ -18,7 +18,7 @@ $(document).ready(function () {
       var confirmedInfo = "";
       var deathInfo = "";
       var recoveredInfo = "";
-      var updatedInfo = "";
+      var updateInfo = "";
   
       //display total confirmed cases
       //console.log(response[0].confirmed)
@@ -28,13 +28,20 @@ $(document).ready(function () {
       recoveredInfo = response[0].recovered;
       updateInfo = response[0].lastUpdate;
   
-  
-      $(".confirmed-info").html(confirmedInfo);
-      $(".death-info").html(deathInfo);
-      $(".recovered-info").html(recoveredInfo);
-      $(".update-info").html(updateInfo);
-  
-  
+      var text = `
+      <div class="row">
+        <div class="col-12">
+          <p class="robot-speech-facts">
+            Total Confirmed Cases: ` + confirmedInfo
+            `Total Deaths: ` + deathInfo 
+            `Total Recovered: ` + recoveredInfo 
+            `Last Updated: ` + updateInfo +  
+          `</p> 
+        </div>
+          
+      </div>`;
+      
+      $(".facts-2").html(text);
     });
   
   

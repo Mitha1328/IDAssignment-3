@@ -15,7 +15,7 @@ $(document).ready(function () {
       </div>
 
       <div class="col-12">
-        <p class="robot-speech" style="margin-top: 20%;">
+        <p class="robot-speech-correct" style="margin-top: 20%;">
           Mary decided to go to the doctor. That is a great choice :D Remember to CALL FIRST!
 
           <span><a href="#part-5" class="btn btn-secondary btn-sm btn-next-4" role="button">next</a></span>
@@ -46,7 +46,7 @@ $(document).ready(function () {
       </div>
 
       <div class="col-12">
-        <p class="robot-speech" style="margin-top: 20%;">
+        <p class="robot-speech-wrong" style="margin-top: 20%;">
           Mary decided to go to school. That is not a good choice when you are unwell D: You might infect your friends & teachers. 
 
           <span><a href="#part-5" class="btn btn-secondary btn-next-4" role="button">next</a></span>
@@ -77,7 +77,7 @@ $(document).ready(function () {
       </div>
 
       <div class="col-12">
-        <p class="robot-speech" style="margin-top: 20%;">
+        <p class="robot-speech-correct" style="margin-top: 20%;">
           Mary decided to go to stay home and self heal. This is a great choice :D You kept your schoolmates safe from spreading your sickness to them! YAY YOU! 
 
           <br>Be careful! If your fever persists, see a doctor! Remember to CALL FIRST!
