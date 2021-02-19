@@ -5,6 +5,15 @@ $(document).ready(function () {
   // Which mask is worn correctly? WRONG
   $(".btn-pt7-wrong").on("click", function (e) {
     var text = `
+    <!-- (2) did you know? talk about masks -->
+    <div class="row">
+        <div class="col-12">
+            <p class="robot-speech-facts" style="margin-top: 20%;">
+                DID YOU KNOW? <br><br>
+                3 Kids aged 5 and under are not required to wear a mask.
+            </p>
+        </div>
+    </div>
     <div class="row">
         
         <div class="col-12">
@@ -18,7 +27,6 @@ $(document).ready(function () {
             <span><a href="#pt7-conclusion" class="btn btn-secondary btn-sm btn-pt7-conclusion" role="button">Next</a></span>
           </p> 
         </div>
-        
     </div>
     `;
     
@@ -38,6 +46,15 @@ $(document).ready(function () {
   //Which mask is worn correctly? CORRECT
   $(".btn-pt7-correct").on("click", function (e) {
     var text = `
+    <!-- (2) did you know? talk about masks -->
+    <div class="row">
+        <div class="col-12">
+            <p class="robot-speech-facts" style="margin-top: 20%;">
+                DID YOU KNOW? <br><br>
+                3 Kids aged 5 and under are not required to wear a mask.
+            </p>
+        </div>
+    </div>
     <div class="row">
         
         <div class="col-12">
@@ -49,7 +66,6 @@ $(document).ready(function () {
             <span><a href="#pt7-conclusion" class="btn btn-secondary btn-sm btn-pt7-conclusion" role="button">Next</a></span>
           </p> 
         </div>
-        
     </div>
     `;
     
@@ -57,7 +73,7 @@ $(document).ready(function () {
 
     $(".btn-pt7-conclusion").on("click", function (j) {
       var text2 = `
-      
+
       `;
       $("#pt7-conclusion").html(text2);
       $("#part-8").show();

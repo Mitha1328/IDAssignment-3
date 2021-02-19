@@ -73,11 +73,26 @@
             <!-- part 3: Avoid touching your face -->
             <!-- Change needed -->
             <div id="part-3">
+
+                <!-- (1) did you know? talk about local cases -->
+                <div class="row">
+                    <div class="col-12">
+                        <p class="robot-speech-facts" style="margin-top: 20%;">
+                            DID YOU KNOW? <br><br>
+                            Total Confirmed cases (singapore): <span class="facts-1-total"></span><br>
+                            Total Deaths (singapore): <span class="facts-1-deaths"></span><br>
+                            Total Recoveries (singapore): <span class="facts-1-recoveries"></span><br>
+                            Total Active Cases (singapore): <span class="facts-1-active"></span><br>
+                            Last Updated: <span class="facts-1-update"></span><br>
+                        </p>
+                    </div>
+                </div>
+                            
                 <div class="row">
                     <div class="col-12">
                         <div class="question-pt3-1">
                             <p class="robot-speech">
-                                <span>Next Scenario! <a href="#text-pt3-1" class="btn btn-secondary btn-sm btn-pt3-1" role="button">Next</a></span>  
+                                <span>First Scenario! <a href="#text-pt3-1" class="btn btn-secondary btn-sm btn-pt3-1" role="button">Next</a></span>  
                             </p>
                         </div>
 
@@ -213,6 +228,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- part 6: Not to go near live animals, poultry and animals-->
             <!-- Change needed -->
             <div id="part-6">
@@ -264,6 +280,7 @@
             <!-- part 7: Which mask is worn correctly?-->
             <!-- Change needed -->
             <div id="part-7">
+
                 <div class="row">
                     <div class="col-12">
                         <div class="question-pt7-1">
@@ -319,13 +336,17 @@
         <!-- part 8 (last) -->
         <div id="part-8">
             <div class="row">
+                <div class="col-12">
+                    <p class="robot-speech">As a recap,</p>
+                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_LCtDAM.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+                </div>
                 <div class="col-4">
                     <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_rudn2nuj.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay loop  ></lottie-player>
                 </div>
 
                 <div class="col-8">
                     <p class="robot-speech" style="margin-top: 20%;">
-                        Well I guess this is it :-( You have completed all the scenes. Well done!<br>
+                        Well I guess this is it :-( You have completed all the scenes. Well done!<br><br>
 
                         <a href="home.html" class="btn btn-primary btn-sm" role="button">Home</a>
                         <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" class="btn btn-primary btn-sm" role="button">Read More</a>
@@ -347,6 +368,7 @@
         
         <!-- own js files -->
         <script src="js/scene3/scene3Main.js"></script>
+        <script src="js/scene3/scene3Api.js"></script>
 
         <script src="js/scene3/scene3Part3.js"></script>
         <script src="js/scene3/scene3Part3-2.js"></script>
