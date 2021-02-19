@@ -3,7 +3,7 @@ An interactive game that can be played on phone and computer using the browser. 
 
 This game allows the children to cultivate good habits to protect themselves and others around them.
 
-Target Audience: Kids aged 8-12
+Target Audience: Kids aged 8-12 in Singapore Context.
 
 Aim: The website helps kids to understand the importance of following the rules such as restrictions and why wearing a mask is a must nowadays. It helps them understand why rules are made. The main goal is for kids to learn from their choices and its consequences.
 This game helps kids learn the current Covid situation from their choices and how much power their choices have.
@@ -47,13 +47,14 @@ We both as a team have used **Jquery, Javascript, API and styling properties** t
 #### CSS
 * We used minimal CSS styling properties as we wanted the website to have an uniformed theme and style
 
+## Test Cases
 ### Interesting Bugs
 * Tested on Chrome: Works well.
 * Tested on Firefox: Works well. Same as chrome.
 * Tested on Oppo Reno 2: Works well. Aligned well.
 * Tested on iPhone 7+: Works well. Aligned not so well.
 
-#### Our Debugging experience
+### Our Debugging experience
 Main bug problem we faced was with scene 3 and 2. As the user made choices we had to go back to each of the javascript files to hide certain properties and show them when needed.
 We also went into some linking issues. The linking of the js files with the main code file.
 
