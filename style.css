@@ -1,13 +1,37 @@
 body{
-    background-color:rgb(208, 252, 180); 
+background-color: #98F559;
 }
 
 h1{
-    color:rgb(53, 26, 230);
-    font-size: 30px;
-    font-family: 'Fredoka One', cursive;
+color: #1901B7;
+font-family: 'Fredoka One', cursive;
+text-align: center;
+padding: 10px;
+margin: 10px;
 }
 
 p{
-    font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.robot-speech{
+font-family: monospace;
+text-align: center;
+border-radius: 25px;
+padding: 10px;
+background: white;
+margin: 20px;
+}
+
+.row{
+margin:5px;
+}
+
+.white-border{
+border-radius: 25px;
+background: white;
+}
+
+a{
+margin: 5px;
 }
