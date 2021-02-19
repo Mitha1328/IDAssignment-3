@@ -16,7 +16,7 @@ $(document).ready(function () {
             <br>
             It is <strong>Correct and Healthy</strong> to use the Tissue to wipe your hands and mouth
 
-            <span>Next Scenario! <a href="#pt3-conclusion" class="btn btn-secondary btn-sm btn-pt3-conclusion" role="button">Next</a></span>
+            <span><a href="#pt3-conclusion" class="btn btn-secondary btn-sm btn-pt3-conclusion" role="button">Next</a></span>
           </p> 
         </div>
     </div>
