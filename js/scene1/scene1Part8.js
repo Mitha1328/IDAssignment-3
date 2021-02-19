@@ -1,0 +1,64 @@
+//part 8: Thermal scanners CANNOT detect COVID-19.
+
+$(document).ready(function () {
+  
+    //myth
+    $(".btn-pt8-myth").on("click", function (e) { 
+      var text = `
+      <div class="row">
+        <div class="col-4">
+          <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_56Jc5o.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"    autoplay></lottie-player>
+        </div>
+  
+        <div class="col-8">
+          <p class="robot-speech" style="margin-top: 20%;">
+            Yes you are right :D Thermal scanners CANNOT detect COVID-19.
+  
+            <br><br>Let's bust the next!
+  
+            <span><a href="#part-9" class="btn btn-secondary btn-sm btn-next-8" role="button">next</a></span>
+          </p> 
+        </div>
+        
+      </div>`;
+      
+      $("#pt8-conclusion").html(text);
+      
+      $(".btn-next-8").on("click", function (e) {
+        $("#part-9").show();
+      });
+      
+    });
+  
+    //fact
+    $(".btn-pt8-fact").on("click", function (e) { 
+      var text = `
+      <div class="row">
+        <div class="col-4">
+          <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_Ll9WVU.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay></lottie-player>
+        </div>
+  
+        <div class="col-8">
+          <p class="robot-speech" style="margin-top: 20%;">
+            Sadly you are wrong D: Thermal scanners CANNOT detect COVID-19.
+  
+            <br><br>Let's bust the next!
+            
+            <span><a href="#part-9" class="btn btn-secondary btn-sm btn-next-8" role="button">next</a></span>
+          </p> 
+        </div>
+          
+      </div>`;
+      
+      $("#pt8-conclusion").html(text);
+  
+      $(".btn-next-8").on("click", function (e) {
+        $("#part-9").show();
+      });
+  
+    }); 
+  
+  
+  
+  });
+  
