@@ -1,4 +1,4 @@
-//part 4: (choice 1) should mary go see the doctor or stay home?
+//part 3-2: (choice 1) should mary go see the doctor or stay home?
 
 $(document).ready(function () {
   
@@ -14,20 +14,21 @@ $(document).ready(function () {
             <p class="robot-speech">
               Peter decided to use the Tissue to Scratch
   
-              <span><a href="#pt4-conclusion" class="btn btn-secondary btn-sm btn-pt4-conclusion" role="button">Next</a></span>
+              <span><a href="#pt3-conclusion" class="btn btn-secondary btn-sm btn-pt3-conclusion" role="button">Next</a></span>
             </p> 
           </div>
           
       </div>
       `;
       
-      $("#pt4-consequence").html(text);
+      $("#pt3-consequence").html(text);
   
-      $(".btn-pt4-conclusion").on("click", function (j) {
+      $(".btn-pt3-conclusion").on("click", function (j) {
         var text2 = `
         
         `;
-        $("#pt4-conclusion").html(text2);
+        $("#pt3-conclusion").html(text2);
+        $("#part-4").show();
       });
   
   
@@ -45,20 +46,21 @@ $(document).ready(function () {
             <p class="robot-speech" style="margin-top: 20%;">
               Peter decided to Scratch.
   
-              <span><a href="#pt4-conclusion" class="btn btn-secondary btn-sm btn-pt4-conclusion" role="button">Next</a></span>
+              <span><a href="#pt3-conclusion" class="btn btn-secondary btn-sm btn-pt3-conclusion" role="button">Next</a></span>
             </p> 
           </div>
           
       </div>
       `;
       
-      $("#pt4-consequence").html(text);
+      $("#pt3-consequence").html(text);
   
-      $(".btn-pt4-conclusion").on("click", function (j) {
+      $(".btn-pt3-conclusion").on("click", function (j) {
         var text2 = `
         
         `;
-        $("#pt4-conclusion").html(text2);
+        $("#pt3-conclusion").html(text2);
+        $("#part-4").show();
       });
     });
   });

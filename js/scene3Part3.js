@@ -4,6 +4,7 @@ $(document).ready(function () {
     //hide parts
     $(".question-pt3-2").hide();
     $("#text-pt3-conclusion").hide();
+    $("#part-3-2").hide();
   
   
     //show what mary is doing at (1) 8pm, (5) 6am
@@ -26,7 +27,7 @@ $(document).ready(function () {
       `;
       
       $("#text-pt3-1").html(text);
-      $("#part-4").show();
+      $("#part-3-2").show();
   
     });
     
