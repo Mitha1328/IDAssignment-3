@@ -5,6 +5,17 @@ $(document).ready(function () {
     //myth
     $(".btn-pt4-myth").on("click", function (e) { 
       var text = `
+      <!-- (2) did you know? talk about how the virus is transmitted -->
+      <div class="row">
+        <div class="col-12">
+          <p class="robot-speech-facts" style="margin-top: 20%;">
+            SO HOW IS COVID-19 TRANSMITTED? <br><br>
+            The virus is transmitted through droplets from an infected person cough, sneeze, or exhale. <br><br>
+            You can be infected by breathing in the virus if you are close to someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.
+          </p>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-4">
           <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_56Jc5o.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"    autoplay></lottie-player>
@@ -34,6 +45,17 @@ $(document).ready(function () {
     //fact
     $(".btn-pt4-fact").on("click", function (e) { 
       var text = `
+      <!-- (2) did you know? talk about how the virus is transmitted -->
+      <div class="row">
+        <div class="col-12">
+          <p class="robot-speech-facts" style="margin-top: 20%;">
+            SO HOW IS COVID-19 TRANSMITTED? <br><br>
+            The virus is transmitted through droplets from an infected person cough, sneeze, or exhale. <br><br>
+            You can be infected by breathing in the virus if you are close to someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.
+          </p>
+        </div>
+      </div>
+      
       <div class="row">
         <div class="col-4">
           <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_Ll9WVU.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay></lottie-player>

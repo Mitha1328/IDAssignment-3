@@ -24,12 +24,12 @@ margin: 20px;
 }
 
 .robot-speech-facts{
-    font-family: monospace;
-    text-align: center;
-    border-radius: 25px;
-    padding: 10px;
-    background: rgb(243, 215, 162);
-    margin: 20px;
+font-family: monospace;
+text-align: center;
+border-radius: 25px;
+padding: 10px;
+background: rgb(243, 215, 162);
+margin: 20px;
 }
 
 .row{

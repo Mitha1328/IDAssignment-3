@@ -5,6 +5,16 @@ $(document).ready(function () {
     //myth
     $(".btn-pt3-myth").on("click", function (e) { 
       var text = `
+      <!-- (1) did you know? talk about what the coronavirus really is -->
+      <div class="row">
+        <div class="col-12">
+          <p class="robot-speech-facts" style="margin-top: 20%;">
+            DID YOU KNOW? <br><br>
+            Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+          </p>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-4">
           <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_56Jc5o.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"    autoplay></lottie-player>
@@ -33,6 +43,16 @@ $(document).ready(function () {
     //fact
     $(".btn-pt3-fact").on("click", function (e) { 
       var text = `
+      <!-- (1) did you know? talk about what the coronavirus really is -->
+      <div class="row">
+        <div class="col-12">
+          <p class="robot-speech-facts" style="margin-top: 20%;">
+            DID YOU KNOW? <br><br>
+            Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+          </p>
+        </div>
+      </div>
+      
       <div class="row">
         <div class="col-4">
           <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_Ll9WVU.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay></lottie-player>
