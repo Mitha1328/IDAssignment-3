@@ -26,6 +26,9 @@ $(document).ready(function () {
     
     $("#pt4-consequence").html(text);
 
+    $(".btn-next-4").on("click", function (e) {
+      $("#part-5").show();
+    });
 
 
   });

@@ -22,7 +22,7 @@ $(document).ready(function () {
         </div>
 
         <div class="col-4">
-          <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_w5puR3.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"    autoplay></lottie-player>
+          <lottie-player src="https://assets8.lottiefiles.com/temp/lf20_Ny9gY0.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
         </div>
     </div>
     `;
@@ -78,15 +78,15 @@ $(document).ready(function () {
   $(".btn-pt3-4").on("click", function (e) {
     var text = `
     <div class="row">
-        <div class="col-8">
-          <p class="robot-speech" style="margin-top: 20%;">
-            4am: Well well well. She didn't. Luckily, her mom didn't come in to check in on her. When will she sleep? She has school in 3 hours.
-          </p> 
-        </div>
+      <div class="col-8">
+        <p class="robot-speech" style="margin-top: 20%;">
+          4am: Well well well. She didn't. Luckily, her mom didn't come in to check in on her. When will she sleep? She has school in 3 hours.
+        </p> 
+      </div>
 
-        <div class="col-4">
-          <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_m06v2gy3.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"    autoplay></lottie-player>
-        </div>
+      <div class="col-4">
+        <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_w5puR3.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"    autoplay></lottie-player>
+      </div>
     </div>
     `;
     
@@ -115,9 +115,7 @@ $(document).ready(function () {
           <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ip6yukgk.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
         </div>
 
-    </div>
-
-    `;
+    </div>`;
     
     $("#text-pt3-5").html(text);
     $("#text-pt3-conclusion").show();

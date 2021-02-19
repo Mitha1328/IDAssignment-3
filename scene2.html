@@ -8,47 +8,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-  <style>
-    body{
-      background-color: #98F559;
-    }
-
-    h1{
-      color: #1901B7;
-      font-family: 'Fredoka One', cursive;
-      text-align: center;
-      padding: 10px;
-      margin: 10px;
-    }
-
-    p{
-      font-family: 'Open Sans', sans-serif;
-    }
-
-    .robot-speech{
-      font-family: monospace;
-      text-align: center;
-      border-radius: 25px;
-      padding: 10px;
-      background: white;
-      margin: 20px;
-    }
-
-    .row{
-      margin:5px;
-    }
-
-    .white-border{
-      border-radius: 25px;
-      background: white;
-    }
-
-    a{
-      margin: 5px;
-    }
-
-  </style>
+	<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -78,7 +38,7 @@
       <div class="row">
         <div class="col-12">
           <p class="robot-speech">
-            now, let me introduce you to the characters!
+            now, let me introduce you to the main character!
           </p>
         </div>
       </div>
@@ -154,7 +114,7 @@
               <div class="col-4">
                 <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_CP7ooz.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay loop  ></lottie-player>
               </div>
-
+              
               <div class="col-8">
                 <p class="robot-speech" style="margin-top: 20%;">
                   Now, that we know what happened, we need your help. 
@@ -171,6 +131,16 @@
 
     <!-- part 4: what should mary do? & consequence of the choice made  -->
     <div id="part-4">
+      <!-- (1) did you know? talk about what the coronavirus really is -->
+      <div class="row">
+        <div class="col-12">
+          <p class="robot-speech-facts" style="margin-top: 20%;">
+            DID YOU KNOW? <br><br>
+            Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+          </p>
+        </div>
+      </div>
+
       <div class="row">
           <div class="col-4">
               <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_CP7ooz.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay loop  ></lottie-player>
@@ -215,11 +185,8 @@
 
             </p>
           </div>
-        </div>
       </div>
     </div>
-    
-
   </div>
 
 
@@ -235,6 +202,7 @@
 
   <!-- own js files -->
   <script src="js/scene2/scene2Main.js"></script>
+  <script src="js/scene2/scene2Api.js"></script>
   <script src="js/scene2/scene2Part3.js"></script>
   <script src="js/scene2/scene2Part4.js"></script>
 
