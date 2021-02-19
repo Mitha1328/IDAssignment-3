@@ -1,49 +1,60 @@
 # Teaching kids about Covid-19
 An interactive game that can be played on phone and computer using the browser. The scenarios are Covid-19 related for kids to learn more about the covid-19 such as what it is, how it spreads and how consequences
 
-cultivate good habits to protect themselves and others around them. Thi
+This game allows the children to cultivate good habits to protect themselves and others around them.
 
 Target Audience: Kids aged 8-12
-Aim: The website helps kids to understand the importance of following the rules such as restrictions and why wearing a mask is a must nowadays. It helps them understand why rules are made. The main goal is for kids to learn from their choices and its consequences.
 
+Aim: The website helps kids to understand the importance of following the rules such as restrictions and why wearing a mask is a must nowadays. It helps them understand why rules are made. The main goal is for kids to learn from their choices and its consequences.
 This game helps kids learn the current Covid situation from their choices and how much power their choices have.
 ## Design Process
 There are 3 scenes in the game.
 1. The user follows the main character and guesses if the statement made is a fact or a myth.
 2. The user follows the main character who is sick and helps her make a choice.
-3. 
+3. The user follows the main character to help him make good choices so that both the user and the main character can learn good habits that helps in this Covid situation.
 
 Idea in more details: https://docs.google.com/document/d/1jkXIJsyebjMLacEckzQYBBsCVSunZtLA7gDw_cVP-QY/edit?usp=sharing
+
 Wireframe: https://docs.google.com/presentation/d/1sKR73a3jOnfNe6woMZ4Q60EZq7WNh2HJgmwwkmBqqGs/edit?usp=sharing
 
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
+This section will emphasize each feature of our website.
 ## Existing Features
 ### Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
+1. Index.html - This page of the website is the main landing page of the website. Where it showcases the a loading lottie.
+   * A perfect lottie animation that showcases "Covid-19"
+
+2. Home.html - A home page that acts as a navigation for the user to move across the different gamming scenarios
+
+3. Scene1.html - This page is a facts showcasing page were the user will be able to learn new facts about the Covid-19 Situation.
+   * It also showing an **API** page where it shows live countings of covid cases around the world
+
+4. Scene2.html - This Page allows the user to learn from her choices where the simulated character is sick and the user will help the sick character throught out the day in a gamefied version.
+   * Lottie animation for better interactivity and gamefication, and understanding of story line.
+
+6. Scene3.html - This page is a game simulation where the user helps the character make good and renowned choices that will eventually bring good habits to the user.
+   * Lottie animation for better interactivity and gamefication.
+
+7. Each of the pages encases some re=andom facts so that user can learn new facts while they play along.
 ## Features Left to Implement
 Another feature idea
 ### Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-### JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
+We both as a team have used **Jquery, Javascript, API and styling properties** to bring out the creativity and attraction to the page. 
+* #### JQuery
+* Jquery and Javascript allows a choice based game for the user so that each of their choices gives a personalised output.
+* #### API
+* API is used as a quick and easy way for the user to tell what is happening in the world because of this Covid-19 virus outbreak
+*  #### CSS
+* We used minimal CSS styling properties as we wanted the website to have an uniformed theme and style
 ### Interesting Bugs
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+All bugs are debugged and finalised
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+#### Our Debugging experience
+Main bug problem we faced was with scene 3 and 2. As the user made choices we had to go back to each of the javascript files to hide certain properties and show them when needed.
+We also went into some linking issues. The linking of the js files with the main code file.
 
 ## Credits
-## Content
-The text for section Y was copied from the Wikipedia article Z
-## Media
-The photos used in this site were obtained from ...
-## Acknowledgements
-I received inspiration for this project from X
+References Page - https://docs.google.com/document/d/1yl7MBqHkuz2fvTTUvCI64Zx2LtKzlvxIB9vgOfjyGF4/edit?usp=sharing
+
