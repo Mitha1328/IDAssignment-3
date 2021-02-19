@@ -1,5 +1,6 @@
 //part 6-2: Not to go near live animals, poultry and animals
 $(document).ready(function () {
+    $("#part-7").hide();
 
     // Make yourself a meter apart from the person standing in front of you
     $(".btn-pt6-go").on("click", function (e) {
