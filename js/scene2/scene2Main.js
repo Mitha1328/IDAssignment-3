@@ -3,6 +3,7 @@ $(document).ready(function () {
   $("#part-2").hide();
   $("#part-3").hide();
   $("#part-4").hide();
+  $("#part-5").hide();
 
   // "btn-next-1" will go to "part-2" ...
   //event listener for button
@@ -24,5 +25,9 @@ $(document).ready(function () {
     
   });
   
+  $(".btn-next-4").on("click", function (e) {
+    $("#part-5").show();
+    
+  });
   
 });
