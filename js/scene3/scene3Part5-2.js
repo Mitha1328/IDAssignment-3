@@ -39,7 +39,7 @@ $(document).ready(function () {
     $(".btn-pt5-keep").on("click", function (e) {
       var text = `
       <div class="row">
-          <div class="col-12">
+          <div class="col-4">
             <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_3ucc3vz0.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
           </div>
   
