@@ -1,15 +1,17 @@
-# IDAssignment-3
-# Teaching kids Covid
-An interactive game that can be played on phone and computer using the browser. The scenarios are Covid-19 related for kids to cultivate good habits to protect themselves and others around them.
+# Teaching kids about Covid-19
+An interactive game that can be played on phone and computer using the browser. The scenarios are Covid-19 related for kids to learn more about the covid-19 such as what it is, how it spreads and how consequences
+
+cultivate good habits to protect themselves and others around them. Thi
 
 Target Audience: Kids aged 8-12
 Aim: The website helps kids to understand the importance of following the rules such as restrictions and why wearing a mask is a must nowadays. It helps them understand why rules are made. The main goal is for kids to learn from their choices and its consequences.
 
 This game helps kids learn the current Covid situation from their choices and how much power their choices have.
 ## Design Process
-Scenarios we came up with 
-1. To Travel
-2. Going to the doctor when not feeling well.
+There are 3 scenes in the game.
+1. The user follows the main character and guesses if the statement made is a fact or a myth.
+2. The user follows the main character who is sick and helps her make a choice.
+3. 
 
 Idea in more details: https://docs.google.com/document/d/1jkXIJsyebjMLacEckzQYBBsCVSunZtLA7gDw_cVP-QY/edit?usp=sharing
 Wireframe: https://docs.google.com/presentation/d/1sKR73a3jOnfNe6woMZ4Q60EZq7WNh2HJgmwwkmBqqGs/edit?usp=sharing
