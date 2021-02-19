@@ -18,7 +18,7 @@ $(document).ready(function () {
 
       <div class="row">
         <div class="col-4">
-          <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_56Jc5o.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"    autoplay></lottie-player>
+          <lottie-player src="https://assets6.lottiefiles.com/temp/lf20_VSSRJT.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"    autoplay></lottie-player>
         </div>
   
         <div class="col-8">
@@ -58,7 +58,7 @@ $(document).ready(function () {
       
       <div class="row">
         <div class="col-4">
-          <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_Ll9WVU.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay></lottie-player>
+          <lottie-player src="https://assets6.lottiefiles.com/temp/lf20_VSSRJT.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay></lottie-player>
         </div>
   
         <div class="col-8">
