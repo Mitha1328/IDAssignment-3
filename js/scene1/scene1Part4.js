@@ -22,7 +22,7 @@ $(document).ready(function () {
         </div>
   
         <div class="col-8">
-          <p class="robot-speech" style="margin-top: 20%;">
+          <p class="robot-speech-correct" style="margin-top: 20%;">
             Yes you are right :D Water or swimming does not transmit the COVID-19 virus.
   
             <br><br>Let's bust the next!
@@ -62,7 +62,7 @@ $(document).ready(function () {
         </div>
   
         <div class="col-8">
-          <p class="robot-speech" style="margin-top: 20%;">
+          <p class="robot-speech-wrong" style="margin-top: 20%;">
             Sadly you are wrong D: Water or swimming does not transmit the COVID-19 virus.
             
             <br><br>Let's bust the next!

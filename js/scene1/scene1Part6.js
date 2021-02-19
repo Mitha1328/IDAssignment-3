@@ -11,7 +11,7 @@ $(document).ready(function () {
         </div>
   
         <div class="col-8">
-          <p class="robot-speech" style="margin-top: 20%;">
+          <p class="robot-speech-correct" style="margin-top: 20%;">
             Yes you are right :D Most people who get COVID-19 recover from it.
   
             <br><br>Let's bust the next!
@@ -40,7 +40,7 @@ $(document).ready(function () {
         </div>
   
         <div class="col-8">
-          <p class="robot-speech" style="margin-top: 20%;">
+          <p class="robot-speech-wrong" style="margin-top: 20%;">
             Sadly you are wrong D: Most people who get COVID-19 recover from it.
   
             <br><br>Let's bust the next!
